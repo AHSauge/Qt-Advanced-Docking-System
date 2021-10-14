@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<typesystem package="PyQtAds">
+    <primitive-type name="bool"/>
+    <primitive-type name="std::string"/>
+    <load-typesystem name="typesystem_core.xml" generate="no"/>
+    <load-typesystem name="typesystem_widgets.xml" generate="no"/>
+    <namespace-type name="ads">
+        <enum-type name="DockWidgetArea" />
+        <enum-type name="TitleBarButton" />
+        <enum-type name="eDragState" />
+        <enum-type name="eIcon" />
+        <enum-type name="eBitwiseOperator" />
+        <namespace-type name="internal" visible="false">
+            <enum-type name="eRepolishChildOptions" />
+        </namespace-type>
+    </namespace-type>
+</typesystem>
