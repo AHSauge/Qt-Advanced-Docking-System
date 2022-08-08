@@ -1,4 +1,4 @@
-project('QtAdvancedDockingSystem', 'cpp')
+project('QtAdvancedDockingSystem', 'cpp', meson_version: '>=0.60')
 
 #First checking for Qt6 unless we want to force Qt5
 if get_option('force_qt5')
