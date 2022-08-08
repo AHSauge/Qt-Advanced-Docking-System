@@ -1,0 +1,7 @@
+subdir('centralwidget')
+subdir('deleteonclose')
+subdir('dockindock')
+subdir('emptydockarea')
+subdir('hideshow')
+subdir('sidebar')
+subdir('simple')

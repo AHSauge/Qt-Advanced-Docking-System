@@ -1,0 +1,2 @@
+option('build_examples', type : 'boolean', value : true, description: 'Whether or not to build the demo and examples')
+option('force_qt5', type : 'boolean', value : false, description: 'When enabled, forces building with Qt5 even though Q6 is available')
