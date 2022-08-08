@@ -13,6 +13,8 @@ lib_deps = [qt_dep]
 
 #Applying some OS specific flags and settings to the library build
 host_os = host_machine.system()
+#NOTE: Defining these flags are needed to ensure correct moc'ing occurs depending on the intended host platform
+# Without the define, Linux builds are known to crash and others are likely to crash
 if host_os == 'windows'
     moc_args = ['-DQ_OS_WIN']
 elif host_os == 'linux'
